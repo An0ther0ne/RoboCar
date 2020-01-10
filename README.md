@@ -36,15 +36,15 @@ After record animation you can create an AVI video from that animation and load 
 
 ## Algorithm explanation
 
-1) Car speed up (with some acceleration value) and move forvard until it bumps into a wall or an other object. 
+1) Car speed up (with some acceleration value) and move forward until it bumps into a wall or an other object. 
 
-2) After collision it roll backward and turn left (version 1). In version 2 of scene script robocar may also turn right with 30% probability.
+2) After collision - it roll backward and turn left (version 1). In version 2 of scene script robocar may also turn right with 30% probability.
 
 3) Go to step 1
 
 ## Advanced
 
-You may build or load you own scene, load robocar.cob object to them and assign this [script](Scene.py) to that scene.
+You may build or load you own scene, insert robocar.cob object to them and assign this [script](Scene.py) to that scene.
 
 You can also create you own model for robotised car, but notice to rename it to "Robot", because script finds object to drive by name.
 
